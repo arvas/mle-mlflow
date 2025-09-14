@@ -1,5 +1,6 @@
 set -o allexport
 source .env
+source .venv_notebook/bin/activate
 
 echo $AWS_ACCESS_KEY_ID
 
